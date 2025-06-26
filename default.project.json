@@ -1,0 +1,52 @@
+{
+    "name": "RSC-GAMEJAM-2025",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "Packages": {
+                "$path": "Packages"
+            },
+            "Vendors": {
+                "$path": "Vendors"
+            },
+            "Assets": {
+                "$className": "Folder",
+                "$ignoreUnknownInstances": true
+            },
+
+            "Shared": {
+                "$path": "src/shared",
+                "$ignoreUnknownInstances": true
+            },
+
+            "$ignoreUnknownInstances": true
+        },
+
+        "ServerScriptService": {
+            "Server": {
+                "$path": "src/server",
+                "$ignoreUnknownInstances": true
+            }
+        },
+
+        "ServerStorage": {
+            "Assets": {
+                "$className": "Folder",
+                "$ignoreUnknownInstances": true
+            },
+            
+            "ServerPackages": {
+                "$path": "ServerPackages"
+            }
+        },
+
+        "StarterPlayer": {
+            "StarterPlayerScripts": {
+                "Client": {
+                    "$path": "src/client",
+                    "$ignoreUnknownInstances": true
+                }
+            }
+        }
+    }
+}

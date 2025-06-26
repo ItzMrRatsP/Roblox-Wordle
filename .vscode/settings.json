@@ -1,0 +1,27 @@
+{
+    "editor": {
+        "tabSize": 4,
+        "editor.showDeprecated": true
+    },
+    /*"window": {
+        "zoomLevel": -0.25,
+    },*/
+    "window.zoomLevel": -0.25,
+    "[lua]": {
+        "breadcrumbs.showArrays": true
+    },
+    "[luau]": {
+        "breadcrumbs.showArrays": true
+    },
+    // Settings
+    // "glassit.alpha": 245,
+    "stylua.targetReleaseVersion": "latest",
+    "editor.fontSize": 18,
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "JetBrains Mono Medium",
+    "files.associations": {
+        "html": "html",
+        "*.lua": "luau",
+        "Test.C": "cpp"
+    },
+}
